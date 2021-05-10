@@ -30,7 +30,7 @@ class Header extends Component{
         return (
             
             <Navbar expand="lg" variant="dark" style={styleNav} className="MainHeader">
-                <Navbar.Brand style={{flex:1, paddingLeft:'30px', display:'flex', flex:'flex-start'}} className="brandHolder"href="/">
+                <Navbar.Brand style={{flex:1, paddingLeft:'30px', display:'flex', flex:'flex-start'}} className="brandHolder"href="/spacelibrary/">
                     <h2>Space Library</h2>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="hamburger"/>
@@ -39,10 +39,10 @@ class Header extends Component{
                         <Nav.Link className="headerLinks" href="/spacelibrary/" style={linkStyle}>
                             <h3 style={{fontSize:'24px',fontWeight:590, marginTop:'10px'}}>Home</h3>
                         </Nav.Link>
-                        <Nav.Link className="headerLinks" href="/Apod" style={linkStyle}>
+                        <Nav.Link className="headerLinks" href="/Apod/" style={linkStyle}>
                             <h3 style={{fontSize:'24px',fontWeight:590, marginTop:'10px'}}>Apod</h3>
                         </Nav.Link>
-                        <Nav.Link className="headerLinks" href="/About"  style={linkStyle}>
+                        <Nav.Link className="headerLinks" href="/About/"  style={linkStyle}>
                             <h3 style={{fontSize:'24px',fontWeight:590, marginTop:'10px'}}>About</h3>
                         </Nav.Link>
                     </Nav>

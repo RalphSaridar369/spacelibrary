@@ -15,10 +15,18 @@ function App() {
       <div className="App">
           <Header />
           <Switch>
-              <Route exact path="/spacelibrary/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/apod" component={Apod} />
-              <Route path="/spacelibrary/:id" component={ItemDetailed} />
+              <Route exact path="/spacelibrary/">
+                  < Home />
+              </Route>
+              <Route path="/About/">
+                  <About />
+              </Route>
+              <Route path="/Apod/">
+                  <Apod />
+              </Route>
+              <Route path="/spacelibrary/:id">
+                  <ItemDetailed />
+              </Route>
           </Switch>
       </div>
   </Router>
