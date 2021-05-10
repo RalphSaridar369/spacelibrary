@@ -37,7 +37,7 @@ const Item = (props) => {
 
         return (
             <div style={styledImages} className="bodyItem">
-                    <Link to={`/${props.Media.media_type}/${props.Media.title}`} target="_blank"
+                    <Link to={`/spacelibrary/${props.Media.media_type}/${props.Media.title}`} target="_blank"
                     onClick={() =>{ localStorage.setItem('url',JSON.stringify(data))}}>
                         <img alt="" style={styledImages} src={Speaker} />
                     </Link>
@@ -78,7 +78,7 @@ const Item = (props) => {
 
         return(
             <div style={styledImages} className="bodyItem">
-                <Link to={`/${props.Media.media_type}/${props.Media.title}`} target="_blank"
+                <Link to={`/spacelibrary/${props.Media.media_type}/${props.Media.title}`} target="_blank"
                 onClick={() =>{ localStorage.setItem('url',JSON.stringify(data))}} >
                     <img alt="" style={styledImages} src={props.Details.links[0].href} />
                 </Link>
@@ -107,7 +107,7 @@ const Item = (props) => {
 
         return(
             <div style={styledImages} className="bodyItem">
-                <Link className="linkedImg" to={{pathname:`/${props.Media.media_type}/${props.Media.title}`,}} target="_blank" 
+                <Link className="linkedImg" to={{pathname:`/spacelibrary/${props.Media.media_type}/${props.Media.title}`,}} target="_blank" 
                 onClick={() =>{ localStorage.setItem('url',JSON.stringify(data))}}>
                     <img alt="" style={styledImages} src={props.Details.links[0].href} />
                 </Link>

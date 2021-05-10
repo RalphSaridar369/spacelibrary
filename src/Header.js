@@ -36,7 +36,7 @@ class Header extends Component{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="hamburger"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="hamburger">
                     <Nav className="mr-auto" style={{paddingRight:'30px', paddingLeft:'30px',flex:1, display:'flex',justifyContent:'flex-end',width:'20%'}} >
-                        <Nav.Link className="headerLinks" href="/" style={linkStyle}>
+                        <Nav.Link className="headerLinks" href="/spacelibrary/" style={linkStyle}>
                             <h3 style={{fontSize:'24px',fontWeight:590, marginTop:'10px'}}>Home</h3>
                         </Nav.Link>
                         <Nav.Link className="headerLinks" href="/Apod" style={linkStyle}>
